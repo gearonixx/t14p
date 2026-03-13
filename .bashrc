@@ -134,6 +134,8 @@ alias zip="zip -r"
 alias l="ls -la"
 alias m="mv"
 
+alias p="sudo pacman -S"
+
 alias sleep_history="journalctl -u systemd-suspend.service --since today"
 
 kon() {
