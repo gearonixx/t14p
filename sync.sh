@@ -11,6 +11,8 @@ rm -rf ~/tm/t14p/mako
 
 rm -rf ~/tm/t14p/.bashrc
 
+mkdir mako
+
 cp -r ~/.local/share/omarchy/default/hypr ~/tm/t14p/hypr/default
 cp -r ~/.config/hypr ~/tm/t14p/hypr/config
 cp -r ~/.config/waybar ~/tm/t14p/waybar
