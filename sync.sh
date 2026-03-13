@@ -7,14 +7,14 @@ rm -rf ~/tm/t14p/hypr/default
 rm -rf ~/tm/t14p/hypr/config
 
 rm -rf ~/tm/t14p/waybar
-rm -rf ~/tm/t14p/maco
+rm -rf ~/tm/t14p/mako
 
 rm -rf ~/tm/t14p/.bashrc
 
 cp -r ~/.local/share/omarchy/default/hypr ~/tm/t14p/hypr/default
 cp -r ~/.config/hypr ~/tm/t14p/hypr/config
 cp -r ~/.config/waybar ~/tm/t14p/waybar
-cp -r ~/.config/maco ~/tmp/14p/maco
+cp -r ~/.config/mako ~/tmp/14p/mako
 
 cp ~/.bashrc ~/tm/t14p/.bashrc
 
