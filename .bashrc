@@ -1,10 +1,3 @@
-# If not running interactively, don't do anything (leave this at the top of this file)
-[[ $- != *i* ]] && return
-
-# All the default Omarchy aliases and functions
-# (don't mess with these directly, just overwrite them here!)
-source ~/.local/share/omarchy/default/bash/rc
-
 # Add your own exports, aliases, and functions here.
 #
 # Make an alias for invoking commands you use constantly
@@ -77,8 +70,6 @@ alias clion="GDK_SCALE=1 GDK_DPI_SCALE=1 clion"
 alias webstorm="GDK_SCALE=1 GDK_DPI_SCALE=1 webstorm"
 alias android-studio="GDK_SCALE=1 GDK_DPI_SCALE=1 android-studio"
 
-alias _="code ."
-
 alias _='code .'
 
 # Disable it so the "!" alias works:
@@ -112,7 +103,7 @@ alias mk='mkdir'
 alias duh='(){ du -h --max-depth=1 .;}'
 
 alias cl='clear'
-alias df='df -h'
+alias df='df -h /'
 
 alias tar='tar -zxvf'
 alias th='touch'
@@ -135,11 +126,11 @@ alias off="shutdown now"
 alias reb="reboot"
 
 alias vim="nvim"
+alias v="nvim"
 
 alias cam="guvcview"
 alias zip="zip -r"
 
-alias r="rm -rf"
 alias l="ls -la"
 alias m="mv"
 
