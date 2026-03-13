@@ -14,7 +14,7 @@ rm -rf ~/tm/t14p/.bashrc
 cp -r ~/.local/share/omarchy/default/hypr ~/tm/t14p/hypr/default
 cp -r ~/.config/hypr ~/tm/t14p/hypr/config
 cp -r ~/.config/waybar ~/tm/t14p/waybar
-cp -r ~/.config/mako ~/tm/t14p/mako
+cp -r  ~/.config/omarchy/current/theme/mako.ini ~/tm/t14p/mako/mako.ini
 
 cp ~/.bashrc ~/tm/t14p/.bashrc
 
